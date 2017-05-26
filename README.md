@@ -1,6 +1,6 @@
 # Timestamp Microservice App
 
-A simple, timestamp application that was built using the NodeJS. You can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: 30 March 2017). Both values are given as a JSON response.
+A simple, timestamp application that was built using NodeJS. You can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: March 30, 2017). Both values are given as a JSON response.
 
 # Example 
 
@@ -14,4 +14,4 @@ localhost:3000/dateValues/March%2030,%302017
 }
 
 ## TODO
- * Format date using Moment.js
+ * Format date using Moment.js (en-GB)
